@@ -107,10 +107,23 @@ while count < 20:
     print(f'count is:{count}')
     count +=1
 
+# A module is basically a file containing a set of functions to include in you application.
+# There are core python modules, modules you can install using the pip package manager
 
+import time
+from datetime import date
 
+today = date.today()
+print(today)
 
+timestamp = time.time()
+print(timestamp)
 
+# creating custom modules
+from mymodule import greeting
+
+name = 'onyinye'
+print(greeting(name))
 
 
 
