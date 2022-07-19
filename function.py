@@ -5,9 +5,15 @@ def samehi(name):
 samehi('igol')
 
 # return values
-def getSum(numb1, numb2):
-    total= numb1 + numb2
+numb1 = 87; numb2 = 22
+def getSum():
+    total = numb1 + numb2
     return total
-ans=getSum(90, 67)
-print(ans)
+getSum()
+
+print(getSum())
+
+
+
+
 
