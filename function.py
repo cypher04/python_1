@@ -51,6 +51,17 @@ if y < x or y <= 50:
 if not(x == y):
     print(f'{x} is not equal to {y}')
 
+# membership operators (not, not in_ - membership operators are used to test if  a sequence is presented in an object
+
+numbers = [1, 2, 3, 20]
+
+if x not in numbers:
+    print(x not in numbers)
+
+
+if x in numbers:
+    print(x in numbers)
+
 
 
 
