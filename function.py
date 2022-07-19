@@ -52,7 +52,7 @@ if not(x == y):
     print(f'{x} is not equal to {y}')
 
 # membership operators (not, not in_ - membership operators are used to test if  a sequence is presented in an object
-
+# With these operators you get aa boolean as a response
 numbers = [1, 2, 3, 20]
 
 if x not in numbers:
@@ -61,6 +61,53 @@ if x not in numbers:
 
 if x in numbers:
     print(x in numbers)
+
+# identity operators (is, is not) - Compare the objects, not if they are equal, but if they are actually the same object, with the same memory location
+# With these operators you get aa boolean as a response
+
+if x is not numbers:
+    print(x is not numbers)
+
+
+# LOOPS
+# for loops are used for iterating over a sequence (that s either a list, a tuple, a dictionary, a set, or a string.
+
+# A simple for loop
+people = ['john', 'Kate','tesse', 'agnes']
+
+for person in people:
+    print(f'Current in person:{person}')
+
+# Break
+for person in people:
+    if person == 'tesse':
+        break
+    print(f'Current in person:{person}')
+
+# Continue (this is also known as skip)
+for person in people:
+    if person == 'tesse':
+        continue
+    print(f'Current in person:{person}')
+
+#range
+for i in range(len(people)):
+    print(people[i])
+
+# Custom Range
+for i in range(1,3):
+    print(f'{i}')
+
+
+# While Loops execute a set of statements as long as a condition is true
+
+count = 0
+
+while count < 20:
+    print(f'count is:{count}')
+    count +=1
+
+
 
 
 
