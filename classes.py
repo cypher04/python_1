@@ -7,6 +7,8 @@ class user:
         self.email = email
         self.age = age
 
+# Extending class
+
 
 # To intialize user object
 ife = user('seyi', 'seyi@gmail.com', 37)
