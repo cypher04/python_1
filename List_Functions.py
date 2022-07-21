@@ -8,7 +8,7 @@ def ans():
 print(ans())
 
 
-
+# list functions include: firends.extend(), friends.insert(), friends.append(), friends.remove(), friends.pop(), friends.index() etc
 
 numbers = [32, 34, 36, 38]
 
