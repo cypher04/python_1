@@ -1,5 +1,6 @@
 # function is a block of code which only runs when it is called. In python, identation with tabs or spaces is what is used
 
+#  parameters in function are code written in the function pe renthesis
 #create function
 def samehi(name):
     print(f'hello {name}')
@@ -124,6 +125,8 @@ from mymodule import greeting
 
 name = 'onyinye'
 print(greeting(name))
+
+
 
 
 
