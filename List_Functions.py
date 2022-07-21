@@ -10,10 +10,10 @@ print(ans())
 
 
 
+numbers = [32, 34, 36, 38]
 
+friends = ['Lan', 'tobi', 'uzo', 'jay', 'ugo']
 
-#friends = ['Lan', 'tobi', 'uzo', 'jay', 'ugo']
+friends.extend(numbers)
 
-#result = friends.extend(ans(numbers))
-
-#friends()
+print(friends)
