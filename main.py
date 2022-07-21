@@ -31,9 +31,12 @@ people = [
     {'name': 'egbon','age':40}
 ]
 
-print(people)
+print(people[1:])
 
 # function is a block of code which only runs when it is called. In python, identation with tabs or spaces is what is used
 def same(name2='igok'):
     print(f'hello{name2}')
+
+
+
 
