@@ -8,18 +8,21 @@ if op == '+':
     ans = float(num1) + float(num2)
     print ('your answer is:', ans)
 
-if op == '-':
+elif op == '-':
     ans = float(num1) - float(num2)
     print ('your answer is:', ans)
 
-if op == '*':
+elif op == '*':
     ans = float(num1) * float(num2)
     print ('your answer is:', ans)
 
-if op == '/':
+elif op == '/':
     ans = float(num1) / float(num2)
     print ('your answer is:', ans)
 
-if op == '%':
+elif op == '%':
     ans = float(num1) % float(num2)
     print ('your answer is:', ans)
+
+else:
+    print('Enter correct parameters')
