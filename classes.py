@@ -11,6 +11,6 @@ class user:
 
 
 # To intialize user object
-ife = user('seyi', 'seyi@gmail.com', 37)
+#ife = user('seyi', 'seyi@gmail.com', 37)
 
-print(ife.name, ife.age, ife.email)
+#print(ife.name, ife.age, ife.email)
