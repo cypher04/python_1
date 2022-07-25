@@ -7,6 +7,12 @@ class user:
         self.email = email
         self.age = age
 
+
+class Question:
+    def __init__(self, prompt, answer):
+        self.prompt = prompt
+        self.answer = answer
+
 # Extending class
 
 
